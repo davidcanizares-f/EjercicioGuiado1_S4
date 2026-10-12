@@ -4,8 +4,9 @@ public class Dispositivo {
 
     private String nombre;
     private String tipo;
-    private int id;
     private static int contador=0;
+    private int id;
+
 
     public Dispositivo(String nombre, String tipo){
         this.nombre = nombre;

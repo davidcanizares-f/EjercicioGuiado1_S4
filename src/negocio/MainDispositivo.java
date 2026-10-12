@@ -4,9 +4,15 @@ public class MainDispositivo {
 
     public static void main() {
 
+        System.out.println("\nNumero de Objetos antes de crearlos: " + Dispositivo.getTotalCreados());
         Dispositivo dispositivo1 = new Dispositivo("Laptop", "Computadora");
+
+        System.out.println("Numero de Objetos luego de crear 1: " + Dispositivo.getTotalCreados());
+
         Dispositivo dispositivo2 = new Dispositivo("Televisor", "Dispositivo Multimedia");
         Dispositivo dispositivo3 = new Dispositivo("Impresora", "Impresion");
+
+        System.out.println("Numero de Objetos luego de crear 3: " + Dispositivo.getTotalCreados());
 
         System.out.println("\n=== DISPOSITIVOS ====");
         System.out.println("ID: " + dispositivo1.getId());
