@@ -43,5 +43,6 @@ public class MainDispositivo {
         System.out.println("Nombre Dispositivo 1: " + dispositivo1.getNombre());*/
 
 
+
     }
 }
